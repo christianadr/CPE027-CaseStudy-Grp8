@@ -1,5 +1,5 @@
 import argparse
-from pedalboard import AudioFile
+from pedalboard.io import AudioFile
 from pedalboard import Pedalboard, PitchShift, LowpassFilter
 
 def to_male(input):
